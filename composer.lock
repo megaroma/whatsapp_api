@@ -1,0 +1,68 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "7966395dbba7b018de1caa2e03ba62f5",
+    "content-hash": "6776dcda19138139fc939fd92782bb58",
+    "packages": [
+        {
+            "name": "whatsapp/chat-api",
+            "version": "v3.2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mgp25/Chat-API.git",
+                "reference": "c72cad156c9d9ce7953439c089474a7a7320906d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mgp25/Chat-API/zipball/c72cad156c9d9ce7953439c089474a7a7320906d",
+                "reference": "c72cad156c9d9ce7953439c089474a7a7320906d",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-gd": "*",
+                "ext-mcrypt": "*",
+                "ext-openssl": "*",
+                "ext-pdo": "*",
+                "ext-sockets": "*",
+                "ext-sqlite3": "*",
+                "php": ">=5.6"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Chat API Contributing Team",
+                    "homepage": "https://github.com/mgp25/Chat-API/graphs/contributors",
+                    "role": "Contributors"
+                }
+            ],
+            "description": "The PHP WhatsApp library",
+            "keywords": [
+                "Chat-API",
+                "whatsapi",
+                "whatsapp"
+            ],
+            "time": "2016-07-02 12:03:26"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
