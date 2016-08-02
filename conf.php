@@ -8,10 +8,10 @@ $debug = false;
 
 
 
-//$db_server = "127.0.0.1";
-//$db_port = "4040";
-$db_server = "10.1.1.50";
-$db_port = "3306";
+$db_server = "127.0.0.1";
+$db_port = "4040";
+//$db_server = "10.1.1.50";
+//$db_port = "3306";
 
 $db_username = "roman";
 $db_password = "treadmill";
