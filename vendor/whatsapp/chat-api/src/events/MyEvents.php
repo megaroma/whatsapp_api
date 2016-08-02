@@ -33,7 +33,7 @@ class MyEvents extends AllEvents
 //        'onGetGroups',
 //        'onGetGroupsInfo',
 //        'onGetGroupsSubject',
-//        'onGetImage',
+        'onGetImage',
 //        'onGetLocation',
         'onGetMessage',
 //        'onGetNormalizedJid',
@@ -90,7 +90,14 @@ class MyEvents extends AllEvents
 
     public function onGetMessage( $mynumber, $from, $id, $type, $time, $name, $body )
     {
-        echo "<p>Message from $name:\n$body\n\n"."</p>";
+        echo "<p><b>event</b> Message from $name:\n$body\n\n"."</p>";
+    }
+
+
+
+    public function onGetImage($mynumber, $from, $id, $type, $time, $name, $size, $url, $file, $mimeType, $fileHash, $width, $height, $preview, $caption)
+    {
+         echo "<p><b>event</b> Image from: $from url:  $url <br> $name $mimeType $type</p>";
     }
 
 

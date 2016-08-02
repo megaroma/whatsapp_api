@@ -35,7 +35,7 @@ class SqliteMessageStore implements MessageStoreInterface
 
     public function saveMessage($from, $to, $txt, $id, $t)
     {
-        echo "Saved Message:".$txt." from:".$from."<br>";
+      
         $sql = 'INSERT INTO messages (`from`, `to`, message, id, t) VALUES (:from, :to, :message, :messageId, :t)';
         $query = $this->db->prepare($sql);
 
